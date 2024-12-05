@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>River Bot</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    
+    <!-- header section starts -->
+
+<header class="header">
+
+    <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"> <i class="fas fa-user"></i> River Bot </a>
+
+    <nav class="navbar">
+        <a data-aos="zoom-in-left" data-aos-delay="300" href="index.html">Home</a>
+        <a data-aos="zoom-in-left" data-aos-delay="450" href="about.html">About</a>
+        <a data-aos="zoom-in-left" data-aos-delay="600" href="services.html">Service</a>
+        <a data-aos="zoom-in-left" data-aos-delay="1200" href="contact.html">Contact</a>
+    </nav>
+    
+    <div class="icons">
+        <div data-aos="zoom-in-left" data-aos-delay="1350" class="fas fa-moon" id="theme-btn"></div>
+        <div data-aos="zoom-in-left" data-aos-delay="1500" class="fas fa-bars" id="menu"></div>
+    </div>
+
+</header>
+<!-- about -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> us</h1>
+
+    <div class="row">
+        
+        <div class="content" data-aos="fade-up" data-aos-delay="150">
+            <h3>Always at service</h3>
+            <p>
+                The robot combines state-of-the-art IoT technology with powerful hardware components, including underwater sonar sensors for depth monitoring, GPS modules for precise geolocation, and a net mechanism for automated waste collection. Operated via a user-friendly mobile application, it provides real-time insights into river conditions and ensures efficient cleanup of floating debris.
+            </p>
+            <button class="btn" id="readMoreBtn">Read More</button>
+        </div>
+        
+        <!-- Modal -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" id="closeModal">&times;</span>
+                <h3 style="color: #fff;">About Our bot</h3>
+                <p style="color: #f8f9fa;">
+                    Our vision is to innovate sustainable solutions for real-world challenges. Among our notable projects is the River Cleaning Robot, designed to combat water pollution and enhance safety in natural water bodies. This intelligent robotic system integrates IoT and sensor technologies to monitor riverbed depths in real time, collect floating waste, and identify hazards using GPS guidance. By actively maintaining cleaner waterways and promoting ecosystem health, we aim to make a lasting impact on environmental preservation and public safety. With a user-friendly mobile interface, this project showcases our commitment to engineering accessible, impactful, and future-forward solutions.
+                </p>
+            </div>
+        </div>
+    </p>
+        
+    <video width="500" height="400" controls src="bot.mp4"></video>
+   
+        <div class="image" data-aos="fade-down" data-aos-delay="300">
+            <img src="images/1.png" alt="">
+        </div>
+    </div>
+</section>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script1.js"></script>
+
+</body>
+</html>
